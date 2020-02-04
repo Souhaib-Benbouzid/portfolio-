@@ -1,0 +1,40 @@
+
+
+header {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    margin: auto;
+
+    nav {
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            align-items: baseline;
+            @include horizontal-list;
+            width: 60vw;
+            
+            .item {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .logo {
+        cursor: pointer;
+        display: inline-block;
+        width: 20vw;
+    }
+}
+
+
+
+nav ul li a:hover {
+    width: 100%;
+    transition: width 0.3;
+    color: $primary-color;
+    font-weight: bold;
+
+}

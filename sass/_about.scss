@@ -1,0 +1,40 @@
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .about_left{
+        width: 40%;
+
+        p {  margin: 0;
+                max-width: 400px;
+                min-width: 400px;
+        }
+    }
+    .about_right{
+        width: 50%;
+        
+        p {
+            margin: 0;
+            min-width: 400px;
+        }
+
+        ul {
+            list-style-image: url(../img/Ellipse.png);
+            li {
+                padding: 0.5rem;
+            }
+        }
+        .btn-primary {
+            margin: 2rem 0;
+        }
+    }
+}

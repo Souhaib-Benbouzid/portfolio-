@@ -1,0 +1,33 @@
+.education {
+
+    .wrapper {
+        display: flex;
+        justify-content: flex-end;
+        
+        .education_items {
+            width: 50%;
+            font-size: 1.1rem;
+
+            .education_item {
+                margin-bottom: 4rem;
+                
+                .education_date{
+                    opacity: 0.5;
+                }
+
+                .education_degree {
+                    font-size: 1.2rem;
+                }
+                .education_place {
+                    font-weight: 400;
+                    opacity: 0.8;
+                    font-size: 1rem;
+                }
+            }
+        }
+
+    }
+
+
+
+}

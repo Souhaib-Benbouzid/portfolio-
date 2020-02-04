@@ -1,0 +1,35 @@
+.work_history{
+    margin-bottom: 4rem;
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        .work_items {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+            .work_item{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: baseline;
+                font-size: 1.1rem;
+                margin: 1rem;
+                h5 {
+                    margin: 0;
+                    font-size: 1.1rem;
+                }
+                h6 {
+                    font-weight: 500;
+                    margin: 0;
+                    opacity: 0.5;
+                }
+            }
+
+        }
+    }
+
+
+
+}

@@ -1,0 +1,5 @@
+
+/node_modules
+
+npm install gsap
+npm install  @dogstudio/highway

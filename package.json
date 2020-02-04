@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "- Design websites using Figma. HTML, CSS3, Materialize, Sass\r - Develop REST API project ( Trivia API )\r - Finishing my Master's Degree in Computer Engineering\r - Reading Books: \r   - Clean Code by Robert c. Martin\r   - Clean Architecture by Robert c. Martin\r   - The Essentials of Modern Software Engineering by  Ivar Jacobson, Harold Lawson, Michael Goedicke, Pan-Wei Ng, Paul E. McMahon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
