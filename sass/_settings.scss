@@ -33,8 +33,14 @@ $background-color : $tertiary-color;
 
 .hover_effect:hover::after {
     width: 100%;
-    transition: width 0.3;
-  
+    transition: width 0.3;  
+}
+.bold_hover_effect:hover{
+    font-weight: bold;
+}
+
+.text_hover_effect:hover {
+    color: $primary-color !important;
 }
 
 @mixin btn {
@@ -86,6 +92,8 @@ html , body {
     background-color: $background-color;
     box-sizing: border-box;
     letter-spacing: 0.8px;
+    overflow-x:hidden ;
+
 }
 p{
     letter-spacing: 1px;
@@ -115,3 +123,29 @@ a {
     background-color: $primary-color !important;
     color: $tertiary-color !important;
 }
+
+
+// queries
+
+@mixin media-md {
+    @media screen and (max-width: 700px) {
+        @content;
+    }
+}
+@mixin media-lg {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}
+@mixin media-xlg {
+    @media screen and (min-width: 1600px) {
+        @content;
+    }
+}
+
+
+
+
+
+
+

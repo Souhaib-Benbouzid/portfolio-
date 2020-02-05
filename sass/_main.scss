@@ -2,6 +2,9 @@ main {
     width: 90%;
     margin: auto;
     section {
+        scroll-snap-align: start;
+
+
         .section-header{
             display: flex;
             flex-direction: row;
@@ -17,6 +20,7 @@ main {
                 margin-bottom: 2rem;
             }
         }
+
     }
 
     .main_page {
